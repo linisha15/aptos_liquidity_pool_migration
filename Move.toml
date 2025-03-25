@@ -1,0 +1,15 @@
+[package]
+name = "Automated liquidity migration tools"
+version = "1.0.0"
+authors = []
+
+[addresses]
+ MyModule = "0xb276c5199e2d1602521d05af154b9f35738dd865a3f5dfaa97aa2b4c810740e6"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
