@@ -1,0 +1,11 @@
+# Deployment configuration for Replit
+run = "npm run start"
+build = "npm run build"
+install = ["npm install"]
+
+[start]
+startCommand = "npm run start"
+onBoot = "npm run db:push"
+
+[env]
+NODE_ENV = "production"
